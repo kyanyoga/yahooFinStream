@@ -9,13 +9,19 @@ The script is configured for localhost.
 
 ##### create a development directory, cd into your new directory and make sure you have Yahoo Finance Installed.
 ##### 
+From PyPI with pip:
+
 .. code:: bash
-  $ pip install yahoo-finance
-##### -or-
+
+    $ pip install yahoo-finance
+
+From development repo (requires git)
+
 .. code:: bash
-  $ git clone git://github.com/lukaszbanasiak/yahoo-finance.git
-  $ cd yahoo-finance
-  $ python setup.py install
+
+    $ git clone git://github.com/lukaszbanasiak/yahoo-finance.git
+    $ cd yahoo-finance
+    $ python setup.py install
 #####
 ##### create a /tmp/datastream directory
 ##### $ mkdir /tmp/datastream
