@@ -13,6 +13,7 @@ The script is configured for localhost.
 ##### git clone git://github.com/lukaszbanasiak/yahoo-finance.git
 ##### $ cd yahoo-finance
 ##### $ python setup.py install
+#####
 ##### create a /tmp/datastream directory
 ##### $ mkdir /tmp/datastream
 ##### run the data generator of your choice : yahooFinStrmTwo.py [generate a CSV files in /tmp/datastream]
