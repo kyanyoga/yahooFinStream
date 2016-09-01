@@ -36,7 +36,8 @@ time.sleep(5)
 You can also edit the file to stream the stocks of your choice.
 ##### stocks
 stocks = ["YHOO", "HPE", "AMZN", "AAPL", "GOOGL", "TWTR", "FB"]
-Output
+
+#### Output
 
     host:bin kyanyoga$ cat /tmp/datastream/BSM_FIN_STRM2016-09-01T16\:45\:57 
     2016-09-01T16:45:57,YHOO,42.93,42.78,43.10,42.72,5572160
