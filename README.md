@@ -23,7 +23,7 @@ You can edit the file and adjust the sleep interval to make the job stream a lit
 #### sleep
 time.sleep(5)
 ##### 
-You can also edit the file stream the stocks of your choice.
+You can also edit the file to stream the stocks of your choice.
 ##### stocks
 stocks = ["YHOO", "HPE", "AMZN", "AAPL", "GOOGL", "TWTR", "FB"]
 ##### output
