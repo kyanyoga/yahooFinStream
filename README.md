@@ -19,24 +19,30 @@ From development repo (requires git)
     $ cd yahoo-finance
     $ python setup.py install
 #####
-##### create a /tmp/datastream directory
-##### $ mkdir /tmp/datastream
-##### run the data generator of your choice : yahooFinStrmTwo.py [generate a CSV files in /tmp/datastream]
-##### -or- generate data into a mongodb database: yahooFinStrmThree.py
-##### $ python yahooFinStrmThree.py
+Create a /tmp/datastream directory
+
+    $ mkdir /tmp/datastream
+
+Run the data generator of your choice : yahooFinStrmTwo.py [both generate CSV files in /tmp/datastream]
+-or- also generate data into a mongodb database: yahooFinStrmThree.py
+
+    $ python yahooFinStrmThree.py
+    
 You can edit the file and adjust the sleep interval to make the job stream a little faster.
-#### sleep
+
+####sleep
 time.sleep(5)
 ##### 
 You can also edit the file to stream the stocks of your choice.
 ##### stocks
 stocks = ["YHOO", "HPE", "AMZN", "AAPL", "GOOGL", "TWTR", "FB"]
-##### output
-host:bin kyanyoga$ cat /tmp/datastream/BSM_FIN_STRM2016-09-01T16\:45\:57 
-2016-09-01T16:45:57,YHOO,42.93,42.78,43.10,42.72,5572160
-2016-09-01T16:46:03,HPE,22.16,21.43,22.32,21.08,18887132
-2016-09-01T16:46:08,AMZN,770.62,770.90,772.04,766.75,1790740
-2016-09-01T16:46:13,AAPL,106.73,106.14,106.80,105.62,26596909
-2016-09-01T16:46:19,GOOGL,790.75,791.98,792.89,786.33,827416
-2016-09-01T16:46:25,TWTR,19.4999,19.3700,20.1400,19.2700,37492115
-...
+Output
+
+    host:bin kyanyoga$ cat /tmp/datastream/BSM_FIN_STRM2016-09-01T16\:45\:57 
+    2016-09-01T16:45:57,YHOO,42.93,42.78,43.10,42.72,5572160
+    2016-09-01T16:46:03,HPE,22.16,21.43,22.32,21.08,18887132
+    2016-09-01T16:46:08,AMZN,770.62,770.90,772.04,766.75,1790740
+    2016-09-01T16:46:13,AAPL,106.73,106.14,106.80,105.62,26596909
+    2016-09-01T16:46:19,GOOGL,790.75,791.98,792.89,786.33,827416
+    2016-09-01T16:46:25,TWTR,19.4999,19.3700,20.1400,19.2700,37492115
+    ...
