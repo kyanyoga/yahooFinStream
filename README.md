@@ -11,13 +11,9 @@ The script is configured for localhost.
 ##### 
 From PyPI with pip:
 
-.. code:: bash
-
     $ pip install yahoo-finance
 
 From development repo (requires git)
-
-.. code:: bash
 
     $ git clone git://github.com/lukaszbanasiak/yahoo-finance.git
     $ cd yahoo-finance
